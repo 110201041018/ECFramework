@@ -11,11 +11,12 @@
 #import <ECFramework/ECAudioRecord.h>
 #import <ECFramework/ECScan_VC.h>
 #import <ECFramework/ECShaker.h>
+#import <ECFramework/ECDispatchAction.h>
 #import <ECFramework/ECLoopProgressView.h>
 #import <ECFramework/ECTools.h>
 #import <ECFramework/ECLog.h>
 
-
+#include <queue.h>
 
 //! Project version number for ECFramework.
 FOUNDATION_EXPORT double ECFrameworkVersionNumber;

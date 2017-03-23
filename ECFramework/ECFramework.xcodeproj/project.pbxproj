@@ -43,6 +43,12 @@
 		477320B31DE58C6700537FB1 /* libFTPKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477320AD1DE58C6700537FB1 /* libFTPKit.a */; };
 		477320B61DE58E4B00537FB1 /* ECtcpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 477320B41DE58E4B00537FB1 /* ECtcpClient.h */; };
 		477320B71DE58E4B00537FB1 /* ECtcpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 477320B51DE58E4B00537FB1 /* ECtcpClient.m */; };
+		A63BA5E51E83C30600D9E5DA /* queue_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A63BA5E11E83C30600D9E5DA /* queue_internal.c */; };
+		A63BA5E61E83C30600D9E5DA /* queue_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5E21E83C30600D9E5DA /* queue_internal.h */; };
+		A63BA5E71E83C30600D9E5DA /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = A63BA5E31E83C30600D9E5DA /* queue.c */; };
+		A63BA5E81E83C30600D9E5DA /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5E41E83C30600D9E5DA /* queue.h */; };
+		A63BA5EC1E83C39700D9E5DA /* ECDispatchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */; };
+		A63BA5ED1E83C39700D9E5DA /* ECDispatchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,12 @@
 		477320AD1DE58C6700537FB1 /* libFTPKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFTPKit.a; sourceTree = "<group>"; };
 		477320B41DE58E4B00537FB1 /* ECtcpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECtcpClient.h; sourceTree = "<group>"; };
 		477320B51DE58E4B00537FB1 /* ECtcpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECtcpClient.m; sourceTree = "<group>"; };
+		A63BA5E11E83C30600D9E5DA /* queue_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue_internal.c; sourceTree = "<group>"; };
+		A63BA5E21E83C30600D9E5DA /* queue_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue_internal.h; sourceTree = "<group>"; };
+		A63BA5E31E83C30600D9E5DA /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		A63BA5E41E83C30600D9E5DA /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDispatchAction.h; sourceTree = "<group>"; };
+		A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECDispatchAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,8 @@
 		4756F6AB1DE52E2700949488 /* ECFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A63BA5E91E83C33A00D9E5DA /* AsyncAndSync */,
+				A63BA5E01E83C2DF00D9E5DA /* Queue_C */,
 				477320A51DE58C5D00537FB1 /* Network */,
 				4756F6F81DE5765200949488 /* DealWithData */,
 				4756F6E11DE535E900949488 /* SearchCode */,
@@ -261,6 +275,26 @@
 			path = FTPKit;
 			sourceTree = "<group>";
 		};
+		A63BA5E01E83C2DF00D9E5DA /* Queue_C */ = {
+			isa = PBXGroup;
+			children = (
+				A63BA5E11E83C30600D9E5DA /* queue_internal.c */,
+				A63BA5E21E83C30600D9E5DA /* queue_internal.h */,
+				A63BA5E31E83C30600D9E5DA /* queue.c */,
+				A63BA5E41E83C30600D9E5DA /* queue.h */,
+			);
+			path = Queue_C;
+			sourceTree = "<group>";
+		};
+		A63BA5E91E83C33A00D9E5DA /* AsyncAndSync */ = {
+			isa = PBXGroup;
+			children = (
+				A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */,
+				A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */,
+			);
+			path = AsyncAndSync;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -275,10 +309,13 @@
 				4756F6FB1DE577D000949488 /* ECTools.h in Headers */,
 				477320AF1DE58C6700537FB1 /* FTPCredentials.h in Headers */,
 				4756F6ED1DE535E900949488 /* UIView+SDExtension.h in Headers */,
+				A63BA5E61E83C30600D9E5DA /* queue_internal.h in Headers */,
+				A63BA5EC1E83C39700D9E5DA /* ECDispatchAction.h in Headers */,
 				4756F7031DE5824300949488 /* NSDictionary+XHLogHelper.h in Headers */,
 				477320B01DE58C6700537FB1 /* FTPHandle.h in Headers */,
 				4756F6FF1DE57B1E00949488 /* ECLog.h in Headers */,
 				4756F6F61DE53D2A00949488 /* ECLoopProgressView.h in Headers */,
+				A63BA5E81E83C30600D9E5DA /* queue.h in Headers */,
 				477320B61DE58E4B00537FB1 /* ECtcpClient.h in Headers */,
 				477320AE1DE58C6700537FB1 /* FTPClient.h in Headers */,
 				477320B11DE58C6700537FB1 /* FTPKit.h in Headers */,
@@ -360,8 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63BA5E51E83C30600D9E5DA /* queue_internal.c in Sources */,
 				4756F6B81DE52F0D00949488 /* ECAudioRecord.m in Sources */,
 				4756F7041DE5824300949488 /* NSDictionary+XHLogHelper.m in Sources */,
+				A63BA5ED1E83C39700D9E5DA /* ECDispatchAction.m in Sources */,
+				A63BA5E71E83C30600D9E5DA /* queue.c in Sources */,
 				4756F7001DE57B1E00949488 /* ECLog.m in Sources */,
 				4756F6FC1DE577D100949488 /* ECTools.m in Sources */,
 				4756F6D91DE534E500949488 /* ECShaker.m in Sources */,

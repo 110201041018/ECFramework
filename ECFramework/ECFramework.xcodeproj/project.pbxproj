@@ -12,11 +12,6 @@
 		4756F6B81DE52F0D00949488 /* ECAudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756F6B61DE52F0D00949488 /* ECAudioRecord.m */; };
 		4756F6D81DE534E500949488 /* ECShaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756F6D61DE534E500949488 /* ECShaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4756F6D91DE534E500949488 /* ECShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756F6D71DE534E500949488 /* ECShaker.m */; };
-		4756F6E61DE535E900949488 /* scan_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756F6DC1DE535E900949488 /* scan_1@2x.png */; };
-		4756F6E71DE535E900949488 /* scan_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756F6DD1DE535E900949488 /* scan_2@2x.png */; };
-		4756F6E81DE535E900949488 /* scan_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756F6DE1DE535E900949488 /* scan_3@2x.png */; };
-		4756F6E91DE535E900949488 /* scan_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756F6DF1DE535E900949488 /* scan_4@2x.png */; };
-		4756F6EA1DE535E900949488 /* scan_net@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756F6E01DE535E900949488 /* scan_net@2x.png */; };
 		4756F6EB1DE535E900949488 /* ECScan_VC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756F6E21DE535E900949488 /* ECScan_VC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4756F6EC1DE535E900949488 /* ECScan_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756F6E31DE535E900949488 /* ECScan_VC.m */; };
 		4756F6ED1DE535E900949488 /* UIView+SDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756F6E41DE535E900949488 /* UIView+SDExtension.h */; };
@@ -49,6 +44,9 @@
 		A63BA5E81E83C30600D9E5DA /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5E41E83C30600D9E5DA /* queue.h */; };
 		A63BA5EC1E83C39700D9E5DA /* ECDispatchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */; };
 		A63BA5ED1E83C39700D9E5DA /* ECDispatchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */; };
+		A6E9ACD11EA388C9005FAE8E /* ECFrameImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6E9ACD01EA388C9005FAE8E /* ECFrameImage.bundle */; };
+		A6E9ACD51EA389A1005FAE8E /* ECButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */; };
+		A6E9ACD61EA389A1005FAE8E /* ECButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +57,6 @@
 		4756F6B61DE52F0D00949488 /* ECAudioRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAudioRecord.m; sourceTree = "<group>"; };
 		4756F6D61DE534E500949488 /* ECShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECShaker.h; sourceTree = "<group>"; };
 		4756F6D71DE534E500949488 /* ECShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECShaker.m; sourceTree = "<group>"; };
-		4756F6DC1DE535E900949488 /* scan_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_1@2x.png"; sourceTree = "<group>"; };
-		4756F6DD1DE535E900949488 /* scan_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_2@2x.png"; sourceTree = "<group>"; };
-		4756F6DE1DE535E900949488 /* scan_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_3@2x.png"; sourceTree = "<group>"; };
-		4756F6DF1DE535E900949488 /* scan_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_4@2x.png"; sourceTree = "<group>"; };
-		4756F6E01DE535E900949488 /* scan_net@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_net@2x.png"; sourceTree = "<group>"; };
 		4756F6E21DE535E900949488 /* ECScan_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECScan_VC.h; sourceTree = "<group>"; };
 		4756F6E31DE535E900949488 /* ECScan_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECScan_VC.m; sourceTree = "<group>"; };
 		4756F6E41DE535E900949488 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
@@ -96,6 +89,9 @@
 		A63BA5E41E83C30600D9E5DA /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDispatchAction.h; sourceTree = "<group>"; };
 		A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECDispatchAction.m; sourceTree = "<group>"; };
+		A6E9ACD01EA388C9005FAE8E /* ECFrameImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ECFrameImage.bundle; sourceTree = "<group>"; };
+		A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECButtonView.h; sourceTree = "<group>"; };
+		A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +132,7 @@
 		4756F6AB1DE52E2700949488 /* ECFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A6E9ACD21EA38980005FAE8E /* ChainProgramming */,
 				A63BA5E91E83C33A00D9E5DA /* AsyncAndSync */,
 				A63BA5E01E83C2DF00D9E5DA /* Queue_C */,
 				477320A51DE58C5D00537FB1 /* Network */,
@@ -146,7 +143,7 @@
 				4756F7051DE5824800949488 /* 辅助性工具 */,
 				4756F6AC1DE52E2700949488 /* ECFramework.h */,
 				4756F6AD1DE52E2800949488 /* Info.plist */,
-				4756F6DB1DE535E900949488 /* Images */,
+				A6E9ACD01EA388C9005FAE8E /* ECFrameImage.bundle */,
 			);
 			path = ECFramework;
 			sourceTree = "<group>";
@@ -176,18 +173,6 @@
 				4756F6D51DE534E500949488 /* Shaker */,
 			);
 			name = animationView;
-			sourceTree = "<group>";
-		};
-		4756F6DB1DE535E900949488 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				4756F6DC1DE535E900949488 /* scan_1@2x.png */,
-				4756F6DD1DE535E900949488 /* scan_2@2x.png */,
-				4756F6DE1DE535E900949488 /* scan_3@2x.png */,
-				4756F6DF1DE535E900949488 /* scan_4@2x.png */,
-				4756F6E01DE535E900949488 /* scan_net@2x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		4756F6E11DE535E900949488 /* SearchCode */ = {
@@ -295,6 +280,15 @@
 			path = AsyncAndSync;
 			sourceTree = "<group>";
 		};
+		A6E9ACD21EA38980005FAE8E /* ChainProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */,
+				A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */,
+			);
+			path = ChainProgramming;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -318,6 +312,7 @@
 				A63BA5E81E83C30600D9E5DA /* queue.h in Headers */,
 				477320B61DE58E4B00537FB1 /* ECtcpClient.h in Headers */,
 				477320AE1DE58C6700537FB1 /* FTPClient.h in Headers */,
+				A6E9ACD51EA389A1005FAE8E /* ECButtonView.h in Headers */,
 				477320B11DE58C6700537FB1 /* FTPKit.h in Headers */,
 				4756F6AE1DE52E2800949488 /* ECFramework.h in Headers */,
 			);
@@ -382,11 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4756F6EA1DE535E900949488 /* scan_net@2x.png in Resources */,
-				4756F6E71DE535E900949488 /* scan_2@2x.png in Resources */,
-				4756F6E81DE535E900949488 /* scan_3@2x.png in Resources */,
-				4756F6E91DE535E900949488 /* scan_4@2x.png in Resources */,
-				4756F6E61DE535E900949488 /* scan_1@2x.png in Resources */,
+				A6E9ACD11EA388C9005FAE8E /* ECFrameImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +398,7 @@
 				4756F6D91DE534E500949488 /* ECShaker.m in Sources */,
 				4756F6EC1DE535E900949488 /* ECScan_VC.m in Sources */,
 				4756F6F71DE53D2A00949488 /* ECLoopProgressView.m in Sources */,
+				A6E9ACD61EA389A1005FAE8E /* ECButtonView.m in Sources */,
 				4756F6EE1DE535E900949488 /* UIView+SDExtension.m in Sources */,
 				477320B71DE58E4B00537FB1 /* ECtcpClient.m in Sources */,
 			);

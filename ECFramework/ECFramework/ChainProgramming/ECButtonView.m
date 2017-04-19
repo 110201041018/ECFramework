@@ -10,6 +10,12 @@
 
 @implementation ECButtonView
 
+
+/**
+ button 标题
+
+ @return button
+ */
 - (ChainButtonTitleBlock)titleName{
 
     return ^ECButtonView *(NSString *titleName){
@@ -68,8 +74,47 @@
 }
 
 
+- (ChainButtonIntergerBlock)corneRadius{
+
+    return ^ECButtonView *(NSUInteger aNumber){
+        
+        self.layer.cornerRadius = aNumber;
+        self.layer.masksToBounds = YES;
+        
+        return  self;
+    };
+}
+
+
+- (ChainButtonColorBlock)boardColor{
+
+    return ^ECButtonView *(UIColor *color){
+    
+        self.layer.borderColor = color.CGColor;
+        return self;
+    };
+    
+}
+
+- (ChainButtonIntergerBlock)boardWidth{
+
+    return ^ECButtonView *(NSUInteger aNumber){
+        
+        self.layer.cornerRadius = aNumber;
+        self.layer.masksToBounds = YES;
+        
+        return  self;
+    };
+    
+}
+
+
+
+
 
 + (ECButtonView *)makeECButton:(void (^)(ECButtonView *))block{
+    
+    
     
     
     ECButtonView *button = [[ECButtonView alloc] init];

@@ -16,6 +16,7 @@ typedef ECButtonView*(^ChainButtonIntergerBlock)(NSUInteger aNumber);
 typedef ECButtonView*(^ChainButtonColorBlock)(UIColor *aColor);
 typedef ECButtonView*(^ChainButtonFrameBlock)(CGRect aframe);
 
+
 @interface ECButtonView : UIButton
 
 - (ChainButtonTitleBlock)titleName;
@@ -23,6 +24,9 @@ typedef ECButtonView*(^ChainButtonFrameBlock)(CGRect aframe);
 - (ChainButtonIntergerBlock)titleFont;
 - (ChainButtonColorBlock)textColor;
 - (ChainButtonFrameBlock)btnFrame;
+- (ChainButtonIntergerBlock)corneRadius;
+- (ChainButtonColorBlock)boardColor;
+- (ChainButtonIntergerBlock)boardWidth;
 
 
 + (ECButtonView *)makeECButton:(void (^)(ECButtonView *))block;

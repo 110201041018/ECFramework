@@ -44,6 +44,8 @@
 		A63BA5E81E83C30600D9E5DA /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5E41E83C30600D9E5DA /* queue.h */; };
 		A63BA5EC1E83C39700D9E5DA /* ECDispatchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */; };
 		A63BA5ED1E83C39700D9E5DA /* ECDispatchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */; };
+		A6D4FC101EA761F70033272E /* ECLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D4FC0E1EA761F70033272E /* ECLabelView.h */; };
+		A6D4FC111EA761F70033272E /* ECLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4FC0F1EA761F70033272E /* ECLabelView.m */; };
 		A6E9ACD11EA388C9005FAE8E /* ECFrameImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6E9ACD01EA388C9005FAE8E /* ECFrameImage.bundle */; };
 		A6E9ACD51EA389A1005FAE8E /* ECButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */; };
 		A6E9ACD61EA389A1005FAE8E /* ECButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */; };
@@ -89,6 +91,8 @@
 		A63BA5E41E83C30600D9E5DA /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		A63BA5EA1E83C39700D9E5DA /* ECDispatchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDispatchAction.h; sourceTree = "<group>"; };
 		A63BA5EB1E83C39700D9E5DA /* ECDispatchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECDispatchAction.m; sourceTree = "<group>"; };
+		A6D4FC0E1EA761F70033272E /* ECLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLabelView.h; sourceTree = "<group>"; };
+		A6D4FC0F1EA761F70033272E /* ECLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLabelView.m; sourceTree = "<group>"; };
 		A6E9ACD01EA388C9005FAE8E /* ECFrameImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ECFrameImage.bundle; sourceTree = "<group>"; };
 		A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECButtonView.h; sourceTree = "<group>"; };
 		A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECButtonView.m; sourceTree = "<group>"; };
@@ -285,6 +289,8 @@
 			children = (
 				A6E9ACD31EA389A1005FAE8E /* ECButtonView.h */,
 				A6E9ACD41EA389A1005FAE8E /* ECButtonView.m */,
+				A6D4FC0E1EA761F70033272E /* ECLabelView.h */,
+				A6D4FC0F1EA761F70033272E /* ECLabelView.m */,
 			);
 			path = ChainProgramming;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				4756F6FF1DE57B1E00949488 /* ECLog.h in Headers */,
 				4756F6F61DE53D2A00949488 /* ECLoopProgressView.h in Headers */,
 				A63BA5E81E83C30600D9E5DA /* queue.h in Headers */,
+				A6D4FC101EA761F70033272E /* ECLabelView.h in Headers */,
 				477320B61DE58E4B00537FB1 /* ECtcpClient.h in Headers */,
 				477320AE1DE58C6700537FB1 /* FTPClient.h in Headers */,
 				A6E9ACD51EA389A1005FAE8E /* ECButtonView.h in Headers */,
@@ -399,6 +406,7 @@
 				4756F6EC1DE535E900949488 /* ECScan_VC.m in Sources */,
 				4756F6F71DE53D2A00949488 /* ECLoopProgressView.m in Sources */,
 				A6E9ACD61EA389A1005FAE8E /* ECButtonView.m in Sources */,
+				A6D4FC111EA761F70033272E /* ECLabelView.m in Sources */,
 				4756F6EE1DE535E900949488 /* UIView+SDExtension.m in Sources */,
 				477320B71DE58E4B00537FB1 /* ECtcpClient.m in Sources */,
 			);

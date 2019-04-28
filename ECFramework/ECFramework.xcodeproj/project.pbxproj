@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001DE84A22758CA300AD3658 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001DE84922758CA300AD3658 /* OpenGLES.framework */; };
+		001DE84C22758CAB00AD3658 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001DE84B22758CAA00AD3658 /* QuartzCore.framework */; };
+		001DE85022758D0F00AD3658 /* ECopenGLYUVRenderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 001DE84E22758D0F00AD3658 /* ECopenGLYUVRenderView.h */; };
+		001DE85122758D0F00AD3658 /* ECopenGLYUVRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001DE84F22758D0F00AD3658 /* ECopenGLYUVRenderView.m */; };
+		008977AA205112140048AD43 /* ECAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 008977A8205112140048AD43 /* ECAudioUnit.h */; };
+		008977AB205112140048AD43 /* ECAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 008977A9205112140048AD43 /* ECAudioUnit.m */; };
+		008977AD205116AF0048AD43 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008977AC205116AF0048AD43 /* AudioToolbox.framework */; };
+		008977AF205117280048AD43 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008977AE205117270048AD43 /* AVFoundation.framework */; };
 		4756F6AE1DE52E2800949488 /* ECFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756F6AC1DE52E2700949488 /* ECFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4756F6B71DE52F0D00949488 /* ECAudioRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756F6B51DE52F0D00949488 /* ECAudioRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4756F6B81DE52F0D00949488 /* ECAudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756F6B61DE52F0D00949488 /* ECAudioRecord.m */; };
@@ -52,6 +60,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001DE84922758CA300AD3658 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		001DE84B22758CAA00AD3658 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		001DE84E22758D0F00AD3658 /* ECopenGLYUVRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECopenGLYUVRenderView.h; sourceTree = "<group>"; };
+		001DE84F22758D0F00AD3658 /* ECopenGLYUVRenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECopenGLYUVRenderView.m; sourceTree = "<group>"; };
+		008977A8205112140048AD43 /* ECAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAudioUnit.h; sourceTree = "<group>"; };
+		008977A9205112140048AD43 /* ECAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAudioUnit.m; sourceTree = "<group>"; };
+		008977AC205116AF0048AD43 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		008977AE205117270048AD43 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4756F6A91DE52E2700949488 /* ECFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4756F6AC1DE52E2700949488 /* ECFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECFramework.h; sourceTree = "<group>"; };
 		4756F6AD1DE52E2800949488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,11 +119,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001DE84C22758CAB00AD3658 /* QuartzCore.framework in Frameworks */,
+				001DE84A22758CA300AD3658 /* OpenGLES.framework in Frameworks */,
+				4773209B1DE5892900537FB1 /* CoreAudio.framework in Frameworks */,
+				008977AF205117280048AD43 /* AVFoundation.framework in Frameworks */,
+				008977AD205116AF0048AD43 /* AudioToolbox.framework in Frameworks */,
 				477320A31DE58BF000537FB1 /* UIKit.framework in Frameworks */,
 				4773209F1DE5898900537FB1 /* CoreGraphics.framework in Frameworks */,
 				4773209D1DE5895800537FB1 /* Foundation.framework in Frameworks */,
 				477320A11DE589F600537FB1 /* CocoaAsyncSocket.framework in Frameworks */,
-				4773209B1DE5892900537FB1 /* CoreAudio.framework in Frameworks */,
 				4756F7081DE587BC00949488 /* CFNetwork.framework in Frameworks */,
 				477320B31DE58C6700537FB1 /* libFTPKit.a in Frameworks */,
 			);
@@ -116,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001DE84D22758CC000AD3658 /* OpenGLEs */ = {
+			isa = PBXGroup;
+			children = (
+				001DE84E22758D0F00AD3658 /* ECopenGLYUVRenderView.h */,
+				001DE84F22758D0F00AD3658 /* ECopenGLYUVRenderView.m */,
+			);
+			path = OpenGLEs;
+			sourceTree = "<group>";
+		};
 		4756F69F1DE52E2600949488 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +173,7 @@
 				4756F6E11DE535E900949488 /* SearchCode */,
 				4756F6DA1DE534E800949488 /* animationView */,
 				4756F6B41DE52F0D00949488 /* Audio */,
+				001DE84D22758CC000AD3658 /* OpenGLEs */,
 				4756F7051DE5824800949488 /* 辅助性工具 */,
 				4756F6AC1DE52E2700949488 /* ECFramework.h */,
 				4756F6AD1DE52E2800949488 /* Info.plist */,
@@ -157,6 +187,8 @@
 			children = (
 				4756F6B51DE52F0D00949488 /* ECAudioRecord.h */,
 				4756F6B61DE52F0D00949488 /* ECAudioRecord.m */,
+				008977A8205112140048AD43 /* ECAudioUnit.h */,
+				008977A9205112140048AD43 /* ECAudioUnit.m */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -223,6 +255,10 @@
 		4756F7061DE587BB00949488 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				001DE84B22758CAA00AD3658 /* QuartzCore.framework */,
+				001DE84922758CA300AD3658 /* OpenGLES.framework */,
+				008977AE205117270048AD43 /* AVFoundation.framework */,
+				008977AC205116AF0048AD43 /* AudioToolbox.framework */,
 				477320A21DE58BF000537FB1 /* UIKit.framework */,
 				477320A01DE589F600537FB1 /* CocoaAsyncSocket.framework */,
 				4773209E1DE5898900537FB1 /* CoreGraphics.framework */,
@@ -304,11 +340,13 @@
 			files = (
 				4756F6B71DE52F0D00949488 /* ECAudioRecord.h in Headers */,
 				4756F6D81DE534E500949488 /* ECShaker.h in Headers */,
+				008977AA205112140048AD43 /* ECAudioUnit.h in Headers */,
 				4756F6EB1DE535E900949488 /* ECScan_VC.h in Headers */,
 				477320B21DE58C6700537FB1 /* ftplib.h in Headers */,
 				4756F6FB1DE577D000949488 /* ECTools.h in Headers */,
 				477320AF1DE58C6700537FB1 /* FTPCredentials.h in Headers */,
 				4756F6ED1DE535E900949488 /* UIView+SDExtension.h in Headers */,
+				001DE85022758D0F00AD3658 /* ECopenGLYUVRenderView.h in Headers */,
 				A63BA5E61E83C30600D9E5DA /* queue_internal.h in Headers */,
 				A63BA5EC1E83C39700D9E5DA /* ECDispatchAction.h in Headers */,
 				4756F7031DE5824300949488 /* NSDictionary+XHLogHelper.h in Headers */,
@@ -367,6 +405,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4756F69F1DE52E2600949488;
@@ -396,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A63BA5E51E83C30600D9E5DA /* queue_internal.c in Sources */,
+				001DE85122758D0F00AD3658 /* ECopenGLYUVRenderView.m in Sources */,
 				4756F6B81DE52F0D00949488 /* ECAudioRecord.m in Sources */,
 				4756F7041DE5824300949488 /* NSDictionary+XHLogHelper.m in Sources */,
 				A63BA5ED1E83C39700D9E5DA /* ECDispatchAction.m in Sources */,
@@ -409,6 +449,7 @@
 				A6D4FC111EA761F70033272E /* ECLabelView.m in Sources */,
 				4756F6EE1DE535E900949488 /* UIView+SDExtension.m in Sources */,
 				477320B71DE58E4B00537FB1 /* ECtcpClient.m in Sources */,
+				008977AB205112140048AD43 /* ECAudioUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
